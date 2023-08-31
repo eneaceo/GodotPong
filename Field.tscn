@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="Field" type="Node2D"]
+
+[node name="Middle" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 500, 300 )
+scale = Vector2( 0.05, 10 )
+texture = ExtResource( 2 )
+
+[node name="RightWall" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 0, 300 )
+scale = Vector2( 0.1, 10 )
+texture = ExtResource( 2 )
+
+[node name="LeftWall" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 1000, 300 )
+scale = Vector2( 0.1, 10 )
+texture = ExtResource( 2 )
+
+[node name="UpWall" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 500, 0 )
+rotation = 1.5708
+scale = Vector2( 0.1, 16 )
+texture = ExtResource( 2 )
+
+[node name="DownWall" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 500, 600 )
+rotation = 1.5708
+scale = Vector2( 0.1, 16 )
+texture = ExtResource( 2 )
